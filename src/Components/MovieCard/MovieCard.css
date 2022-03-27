@@ -1,0 +1,50 @@
+.poster{
+    mask-image:none;
+    -webkit-mask-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0, rgb(82, 18, 18)),
+      color-stop(0.35, rgb(44, 6, 6)),
+      color-stop(0.5, rgb(37, 3, 3)),
+      color-stop(0.65, rgb(75, 9, 9)),
+      color-stop(0.85, rgba(190, 68, 68, 0.6)),
+      color-stop(1, rgba(253, 193, 193, 0))
+    
+     );
+  
+
+}
+
+.Trailer{
+  margin: 2px;
+  border: 1px solid rgb(85, 10, 10);
+  background-color: rgb(223, 170, 170);
+  border-radius: 10px;
+  color: rgb(85, 10, 10);
+  font-weight: bold;
+}
+
+
+.MovieCard{
+  margin-left:60px;
+  height: 600px;
+  
+  
+
+}
+
+.MovieCard:hover{
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+  opacity: 0.8;
+  transform: rotate(2deg);
+ 
+}
+
+
+
+.Link{
+  text-decoration: none;
+}
